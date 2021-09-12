@@ -1,6 +1,6 @@
 <?php
 include('templates/header.php');
-
+// EJEMPLO COMMIT 
 ?>
 <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
   <a class="navbar-brand" href="#">Navbar</a>

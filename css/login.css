@@ -1,0 +1,136 @@
+/*FUENTES*/
+
+@font-face {
+    font-family: "Playfair";
+    src: url("fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+/*GENERALES*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #40a0dd;
+    background-position: bottom;
+}
+
+/*SINGIN*/
+
+#singin {
+    width: 480px;
+    height: 600px;
+    background-color: #eef;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0px 55px;
+    font-family: sans-serif;
+    box-shadow: 0 0 3px #444 ;
+}
+
+#singin #himg {
+    height: 170px;
+}
+
+#singin #img {
+    display: block;
+    width: 170px;
+    float: left;
+    margin-left: 90px;
+    margin-top: 5%;
+}
+
+#singin .titulo {
+    float: left;
+    position: relative;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-left: 35%;
+
+
+    
+   /* line-height: 100px;*/
+    color: black;
+}
+
+#singin #desc{
+    color: #444;
+}
+
+#singin #form form {
+    font-size: 20px;
+}
+
+#singin #form form label {
+    display: block;
+    margin-top: 50px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+
+#singin #form form input[type="text"], #singin #form form input[type="password"] {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 0;
+    box-shadow: 0 4px #3150ad;
+    box-sizing: border-box;
+        
+}
+
+
+#singin #form form input[type="text"]:focus, 
+#singin #form form input[type="password"]:focus {
+    box-shadow: 0 4px  #40a0dd;
+    transition: 200ms all;
+
+}
+
+
+#singin #form form input[type="submit"]{
+    display: block;
+    height: 40px;
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 60px;
+    border: 0px;
+    background-color: #3150ad;
+    border-radius: 20px;
+    font-size: 22px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+#singin #form form input[type="submit"]:hover{
+    background-color: #40a0dd;
+    transition: 200ms all;
+    color: black;
+}
+
+#singin #abajo a{
+    display: block;
+    color: #555;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#singin #abajo a:hover{
+    color: black;
+    transition: 200ms all;
+    font-weight: bold;
+}
